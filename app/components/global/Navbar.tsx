@@ -20,6 +20,7 @@ const Appbar = ({ currentPage }) => {
                 src="/static/logos/KitsuneCom.jpg"
                 alt=""
                 width="60"
+                height="60"
               />
               {"D-Roc".split("").map((letter, index) => {
                 return(

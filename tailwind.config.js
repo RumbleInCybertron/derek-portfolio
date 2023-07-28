@@ -19,6 +19,7 @@ module.exports = {
       },
       fontFamily: {
         Poppins: ['Poppins, sans-serif'],
+        monospace: ["DM Mono", "monospace"],
       },
       container: {
         center: true,
@@ -65,6 +66,9 @@ module.exports = {
             'background-position':'right center'
           }
         }
+      },
+      rotate: {
+        '360': '360deg'
       }
     },
   },

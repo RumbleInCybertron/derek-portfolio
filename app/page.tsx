@@ -1,47 +1,21 @@
-import "@/app/styles/globals.css"
-import Navbar from "@/app/components/global/Navbar"
-import Head from "next/head";
-import Link from "next/link";
+import Page from "@/app/components/utility/Page";
+// import CTA from "@/components/home/CTA";
+// import Hero from "@/components/home/Hero";
+// import Projects from "@/components/home/Projects";
+// import Skills from "@/components/home/Skills";
+// import Testimonials from "@/components/home/Testimonials";
 
-type PageProps = {
-  currentPage: string;
-  meta: {
-    title?: string;
-    desc: string;
-  };
-  children?: JSX.Element | JSX.Element[];
-};
-
-export default function Home({ currentPage, meta: { title, desc }, children }: PageProps) {
-  const pageTitle = `${currentPage === "Home"
-    ? "Derek Haus - Designer, Developer, Investor."
-    : `${currentPage} - Derek.Haus`
-    }`;
-  console.log("Current Page: ", currentPage);
+export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>{pageTitle}</title>
-
-        <Link href="/favicon.ico" />
-        <Link href="/favicon.ico" />
-        <Link href="/favicon.ico" />
-        <Link href="/static/favicon/site.webmanifest" />
-
-        <meta name="title" content={pageTitle} />
-        <meta name="description" content={desc} />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://derek.haus/" />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={desc} />
-        <meta
-          property="og:image"
-          content="https://derek.haus/static/misc/og.png" // TODO: design/create/add og.png
-        />
-      </Head>
-      <Navbar currentPage={currentPage} />
-      <div>Home</div>
-    </div>
-  )
-};
+    <Page currentPage="Home" meta={{ desc: "I'm a passionate web developer and designer coding beautiful websites and apps." }}>
+      {/* <Hero /> */}
+      <div className="mt-20 space-y-32">
+        {/* <Projects />
+        <Skills />
+        <Testimonials /> */}
+        {/* <Posts allPosts={allPosts} /> */}
+      </div>
+      {/* <CTA /> */}
+    </Page>
+  );
+}

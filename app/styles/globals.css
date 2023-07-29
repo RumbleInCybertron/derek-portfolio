@@ -122,11 +122,11 @@ html {
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
-    @apply dark:bg-gray-800 bg-white
+    @apply dark:bg-gray-800 bg-white;
   }
 
   body::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 8px;
     background: transparent;
   }
 
@@ -137,7 +137,31 @@ html {
 
   body::-webkit-scrollbar-thumb {
     background: #fff2;
-    backdrop-filter: blur(0.3rem);
-    border-radius: 0.6rem;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+  }
+
+  .landingSectionTitle::before {
+    content: "";
+    position: absolute;
+    left: 105%;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100vw;
+    @apply bg-fun-pink;
+  }
+
+  @media (max-width: 768px) {
+    .landingSectionTitle::before {
+      left: 50%;
+      right: auto;
+      top: -20px;
+      transform: translate(-50%, -50%);
+      height: 8px;
+      width: 150px;
+      @apply bg-fun-pink;
+    }
   }
 }

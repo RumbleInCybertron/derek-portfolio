@@ -5,7 +5,7 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   mode: "jit",
   important: true,
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  purge: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -101,11 +101,11 @@ module.exports = {
             'background-position':'right center'
           }
         },
-        fadeIn: {
+        'fadeIn': {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
-        willChange: {
+        'willChange': {
           'projectCard': 'border-color, opacity, transform',
         }
       },

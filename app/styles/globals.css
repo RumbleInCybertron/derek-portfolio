@@ -122,7 +122,7 @@ html {
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
-    @apply dark:bg-gray-800 bg-white;
+    @apply bg-bg;
   }
 
   body::-webkit-scrollbar {

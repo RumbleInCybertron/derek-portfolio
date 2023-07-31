@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { routes } from "@/app/data/global"
+import "@/app/styles/globals.css"
+
 
 function Appbar({ currentPage }) {
   return (

@@ -1,3 +1,7 @@
+"use client"
+
+import { Link as ScrollLink } from "react-scroll";
+
 function Hero() {
   return (
     <>
@@ -9,6 +13,18 @@ function Hero() {
         <h1 className="relative inline-block font-bold text-5xl max-w-2xl lg:max-w-4xl lg:text-7xl md:text-6xl tracking-tighter mb-10 w-auto heroTitle">
           <span className="text-fun-pink">Innovating</span> and <span className="text-fun-pink">designing</span> for the <span className="text-fun-pink">web</span> and for <span className="text-fun-pink">your business</span>.
         </h1>
+        <ScrollLink
+          activeClass="active"
+          to="learnmore"
+          spy={true}
+          offset={-30}
+          smooth={true}
+          duration={500}
+        >
+          <div className="cursor-pointer">
+            Tell me more
+          </div>
+        </ScrollLink>
       </div>
     </>
   )

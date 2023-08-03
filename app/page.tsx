@@ -2,7 +2,7 @@ import Page from "@/app/components/utility/Page";
 // import CTA from "@/app/components/home/CTA";
 import Hero from "@/app/components/home/Hero";
 import Projects from "@/app/components/home/Projects";
-// import Skills from "@/components/home/Skills";
+import Skills from "@/app/components/home/Skills";
 // import Testimonials from "@/components/home/Testimonials";
 
 export default function Home() {
@@ -11,8 +11,8 @@ export default function Home() {
       <Hero />
       <div className="mt-20 space-y-32">
         <Projects />
-        {/* <Skills />
-        <Testimonials /> */}
+        <Skills />
+        {/*<Testimonials /> */}
         {/* <Posts allPosts={allPosts} /> */}
       </div>
       {/* <CTA /> */}

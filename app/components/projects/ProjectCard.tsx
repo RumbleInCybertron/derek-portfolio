@@ -5,7 +5,7 @@ import Link from "next/link";
 function ProjectCard({ project }) {
   return (
     <div
-      className="flex flex-col mx-auto max-w-sm md:projects-start md:justify-center"
+      className="flex flex-col mx-auto max-w-sm projects-center md:projects-start md:justify-center"
       key={project.id}
     >
       <a
@@ -21,10 +21,10 @@ function ProjectCard({ project }) {
           height="1000"
         />
       </a>
-      <div>
-        <div>
-          <a>
-            <h3>{project.title}</h3>
+      <div className="w-full mt-5">
+        <div className="flex projects-center justify-between">
+          <a href={project.link || project.github} target="_blank">
+            <h3 className="text-lg font-bold">{project.title}</h3>
           </a>
           <div className="space-x-2">
             {project.link && (
@@ -49,13 +49,13 @@ function ProjectCard({ project }) {
             )}
           </div>
         </div>
-        <p></p>
-        <ul>
+        <p className="text-fun-gray text-left text-sm">{project.desc}</p>
+        <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
           {project.tags.map((tag: string, index: number) => {
             return (
               <li key={tag}>
                 <Link href={`/projects/tag/${kebabCase(tag)}`}>
-                  <div>
+                  <div className="m-1 rounded-lg text-sm bg-fun-pink-dark py-1 px-2 cursor-pointer hover:opacity-75">
                     {tag}
                   </div>
                 </Link>

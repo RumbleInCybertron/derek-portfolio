@@ -1,10 +1,14 @@
 import projects from "@/app/data/content/projects";
 import ProjectCard from '@/app/components/projects/ProjectCard';
 import Link from "next/link";
+import SectionTitle from "@/app/components/global/SectionTitle";
 
 function Projects() {
   return (
     <div className="flex flex-col">
+      <div>
+        <SectionTitle title="Here's some stuff." />
+      </div>
       <div>
         {projects.slice(0, 3).map((item) => {
           return (

@@ -5,11 +5,11 @@ import SectionTitle from "@/app/components/global/SectionTitle";
 
 function Projects() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col text-left justify-between pt-8 relative">
       <div>
         <SectionTitle title="Here's some stuff." />
       </div>
-      <div>
+      <div className="grid grid-cols-1 gap-12 md:gap-5 md:grid-cols-3 items-start">
         {projects.slice(0, 3).map((item) => {
           return (
             <ProjectCard key={item.id} project={item} />

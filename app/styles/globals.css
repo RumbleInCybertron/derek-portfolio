@@ -49,12 +49,12 @@ html {
 
 @layer base {
   /* Headings */
-  h1 {
+  /* h1 {
     @apply text-4xl font-bold mb-4;
-  }
-  h3 {
+  } */
+  /* h3 {
     @apply text-xl font-bold text-gray-600 mb-0;
-  }
+  } */
 
   /* Labels */
   label {
@@ -115,9 +115,9 @@ html {
   }
 
   /* Links */
-  a {
-    @apply transition font-bold hover:underline hover:text-black text-gray-500 !no-underline;
-  }
+  /* a {
+    @apply transition font-bold hover:underline hover:text-black  !no-underline;
+  } */
   body {
     width: 100%;
     min-height: 100vh;

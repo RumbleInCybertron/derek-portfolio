@@ -17,7 +17,7 @@ function Skills() {
             <div
               key={index}
               title={item.title}
-              className="flex flex-col w-10 mx-auto justify-center"
+              className="flex flex-col w-10 mx-auto justify-center items-center"
             >
               <Image
                 src={item.icon}

@@ -21,7 +21,7 @@ function Hero() {
           smooth={true}
           duration={500}
         >
-          <div className="cursor-pointer">
+          <div className="font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg cursor-pointer hover:bg-fun-pink hover:border-fun-pink transition-colors">
             Tell me more
           </div>
         </ScrollLink>

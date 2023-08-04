@@ -4,6 +4,12 @@ type Skill = {
   style?: object
 };
 
+type Testimonial = {
+  quote: string,
+  name: string,
+  job: string
+};
+
 export const skills: Skill[] = [
   {
     title: "NextJS",
@@ -69,5 +75,26 @@ export const skills: Skill[] = [
   {
     title: "Node.js",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    quote:
+      "The communication throughout the project was excellent and the design was carried out well.",
+    name: "Mr. Softie",
+    job: "Co-Founder of Mobile Icecream",
+  },
+  {
+    quote:
+      "The communication throughout the project was excellent and the design was carried out well.",
+    name: "Mr. Softie",
+    job: "Co-Founder of Mobile Icecream",
+  },
+  {
+    quote:
+      "The communication throughout the project was excellent and the design was carried out well.",
+    name: "Mr. Softie",
+    job: "Co-Founder of Mobile Icecream",
   },
 ];

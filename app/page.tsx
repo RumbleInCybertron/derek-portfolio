@@ -3,7 +3,7 @@ import Page from "@/app/components/utility/Page";
 import Hero from "@/app/components/home/Hero";
 import Projects from "@/app/components/home/Projects";
 import Skills from "@/app/components/home/Skills";
-// import Testimonials from "@/components/home/Testimonials";
+import Testimonials from "@/app/components/home/Testimonials";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <div className="mt-20 space-y-32">
         <Projects />
         <Skills />
-        {/*<Testimonials /> */}
+        <Testimonials />
         {/* <Posts allPosts={allPosts} /> */}
       </div>
       {/* <CTA /> */}

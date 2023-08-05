@@ -1,5 +1,5 @@
 import Page from "@/app/components/utility/Page";
-// import CTA from "@/app/components/home/CTA";
+import CTA from "@/app/components/home/CTA";
 import Hero from "@/app/components/home/Hero";
 import Projects from "@/app/components/home/Projects";
 import Skills from "@/app/components/home/Skills";
@@ -15,7 +15,7 @@ export default function Home() {
         <Testimonials />
         {/* <Posts allPosts={allPosts} /> */}
       </div>
-      {/* <CTA /> */}
+      <CTA />
     </Page>
   );
 }

@@ -4,6 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Script from "next/script";
 import MobileNavbar from "@/app/components/global/MobileNavbar";
+import Footer from "@/app/components/global/Footer";
 
 type PageProps = {
   currentPage: string;
@@ -81,6 +82,7 @@ export default function Page({ currentPage, meta: { title, desc }, children }: P
           </div>
           {children}
         </main>
+        <Footer />
       </div>
     </>
   )

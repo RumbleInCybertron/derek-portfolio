@@ -17,8 +17,8 @@ function ProjectCard({ project }) {
           className="w-full rounded-md"
           src={project.img}
           alt=""
-          width="1000"
-          height="1000"
+          width="300"
+          height="300"
         />
       </a>
       <div className="w-full mt-5">
@@ -26,7 +26,7 @@ function ProjectCard({ project }) {
           <a href={project.link || project.github} target="_blank">
             <h3 className="text-lg font-bold">{project.title}</h3>
           </a>
-          <div className="space-x-2">
+          <div className="flex space-x-2">
             {project.link && (
               <a href={project.link} target="_blank" rel="noreferrer">
                 <Image
@@ -40,7 +40,7 @@ function ProjectCard({ project }) {
             {project.github && (
               <a href={project.github} target="_blank" rel="noreferrer">
                 <Image
-                  src="/static/icons/external-link.svg"
+                  src="/static/icons/github.svg"
                   width={16}
                   height={16}
                   alt="Github Icon"

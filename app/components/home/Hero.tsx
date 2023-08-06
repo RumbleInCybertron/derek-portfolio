@@ -18,70 +18,70 @@ function Hero() {
             style={{ animationDelay: "0.1s" }}
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
           <Image
             className="sqD squiggle-hero-nextjs hidden top-[75px] right-0 w-11"
             style={{ animationDelay: "0.2s" }}
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
           <Image
             className="sqD bottom-[-300px] -right-1/4 sm:right-[-20%] lg:bottom-[-310px] lg:right-[-120px] w-[400px]"
             style={{ animationDelay: "0.3s" }}
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
           <Image
             className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
             style={{ animationDelay: "0.4s" }}
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
           <Image
             className="sqD hidden sm:block left-[100px] lg:left-[160px] bottom-[-150px]"
             style={{ animationDelay: "0.5s" }}
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
           <Image
             className="sqD bottom-[-320px] right-[65%] sm:right-[45%]"
             style={{ animationDelay: "0.6s" }}
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
           <Image
             className="sqD right-[-60px] sm:right-0 bottom-[-180px] lg:[5%]"
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
           <Image
             className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
           <Image
             className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40"
             style={{ animationDelay: "0.9s" }}
             src="/static/icons/external-link.svg"
             alt=""
-            width="1000"
-            height="1000"
+            width="80"
+            height="80"
           />
         </h1>
         <ScrollLink

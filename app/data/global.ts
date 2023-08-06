@@ -70,7 +70,7 @@ export const footer: Footer = {
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/derek-kitsunecom/",
+          link: "https://www.linkedin.com/in/derek-kitsunecom",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },

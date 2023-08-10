@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import React from "react";
 import Image from "next/image";
 import { routes } from "@/app/data/global"
@@ -7,7 +8,7 @@ import "@/app/styles/globals.css"
 
 function Appbar({ currentPage }) {
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="max-w-screen-lg mx-auto flex items-center justify-between">
       <li className="list-none font-bold text-lg cursor-pointer">
         <Link href="/">
           <span className="font-black text-xl flex items-center">
@@ -18,7 +19,7 @@ function Appbar({ currentPage }) {
               width="60"
               height="60"
             />
-            {"D-Roc".split("").map((letter, index) => {
+            {"Derek-Haus".split("").map((letter, index) => {
               return (
                 <span key={index} className="hover:text-fun-pink hover:mt-2 transition-all duration-500 hover:duration-100">
                   {letter}

@@ -17,6 +17,7 @@ function Designs() {
                 alt=""
                 width={48}
                 height={48}
+                unoptimized
               />
             </a>
           </div>

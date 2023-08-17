@@ -87,14 +87,14 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "The communication throughout the project was excellent and the design was carried out well.",
-    name: "Mr. Softie",
-    job: "Co-Founder of Mobile Icecream",
+      "Our vision was executed perfectly. The quality of the work was outstanding.",
+    name: "Lee Sungho",
+    job: "Manager at Mapdesign Co.",
   },
   {
     quote:
-      "The communication throughout the project was excellent and the design was carried out well.",
-    name: "Mr. Softie",
-    job: "Co-Founder of Mobile Icecream",
+      "The communication throughout the project was excellent and the designs were carried out well.",
+    name: "Koo Jiun",
+    job: "Art Director of Jiun Koo Makeup",
   },
 ];

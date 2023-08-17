@@ -17,7 +17,7 @@ function Appbar({ currentPage }: AppbarProps) {
           <span className="font-black text-xl flex items-center">
             <Image
               className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
-              src="/static/logos/KitsuneCom.jpg"
+              src="/static/logos/dh-logo-circle.png"
               alt=""
               width="60"
               height="60"

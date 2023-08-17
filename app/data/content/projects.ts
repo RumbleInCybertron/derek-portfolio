@@ -8,7 +8,7 @@ const projects: Project[] = [
     desc: "Web service company website",
     img: "/projects/kitsunecom.png",
     link: "https://google.com/",
-    github: "https://github.com/RumbleInCybertron/Skrizzle",
+    github: "https://github.com/KitsuneCom-LLC/kitsunecom",
     tags: ["Gatsby.js", "React.js", "TypeScript", "TailwindCSS"],
   },
   {
@@ -17,7 +17,7 @@ const projects: Project[] = [
     desc: "Website and software that trains a users to communicate well and teaches the user how to give more powerful, more professional, and more succinct presentations. Speech analytics and text analytics are used to rationalize data in 5-different areas, i.e. speech sentiment, words per minute, pitch, volume of speech, and pauses per minute.",
     img: "/projects/prezp-1.png",
     link: "https://google.com/",
-    github: "https://github.com/RumbleInCybertron/Skrizzle",
+    github: "https://gitlab.com/vr-111/comt-web/-/tree/master",
     tags: ["Azure",".NET 5.0", "C#", "Vue.js"],
   },
   {
@@ -26,7 +26,7 @@ const projects: Project[] = [
     desc: "Utilizes anonymous patient data drawn from spreadsheets in order to create a variety of fully-customizable data-charts via PowerBI. ",
     img: "/projects/sapv-1.png",
     link: "https://google.com/",
-    github: "https://github.com/RumbleInCybertron/Skrizzle",
+    github: "https://gitlab.com/sapv/sapv_server",
     tags: ["Django", "Python", "PowerBI", "Azure", "GraphQL", "React.js", "TailwindCSS"],
   },
   {

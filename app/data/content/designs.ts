@@ -31,13 +31,13 @@ export const designs: Design[] = [
     link: "https://jiunkoomakeup.com/",
   },
   {
-    label: "JKM Business Card Black",
-    img: "/static/designs/business-card-front-director-black.png",
+    label: "JKM Business Card White",
+    img: "/static/designs/business-card-back-white.png",
     link: "https://jiunkoomakeup.com/",
   },
   {
-    label: "JKM Business Card White",
-    img: "/static/designs/business-card-back-white.png",
+    label: "JKM Business Card Black",
+    img: "/static/designs/business-card-front-director-black.png",
     link: "https://jiunkoomakeup.com/",
   },
   {

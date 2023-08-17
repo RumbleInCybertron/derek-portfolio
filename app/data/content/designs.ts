@@ -1,48 +1,48 @@
-type Design ={
+type Design = {
   label: string;
   img: string;
   link: string;
-}
+};
 
 export const designs: Design[] = [
   {
-    label: "Mobile Shopping App",
-    img: "/projects/skrizzle.png",
+    label: "JKM Logo",
+    img: "/static/designs/jkm-logo.jpg",
     link: "https://google.com",
   },
   {
-    label: "Modern App Design",
-    img: "/projects/skrizzle.png",
-    link: "https://google.com",
+    label: "Entanglr App Advertisement",
+    img: "/static/designs/entanglr-ad-1.jpeg",
+    link: "https://entanglr.space",
   },
   {
-    label: "Landing Pages for Startups - Concept",
-    img: "/projects/skrizzle.png",
-    link: "https://google.com",
+    label: "Entanglr App Advertisement",
+    img: "/static/designs/entanglr-ad-2.png",
+    link: "https://entanglr.space",
   },
   {
-    label: "Luxury, Blue Portfolio",
-    img: "/projects/skrizzle.png",
-    link: "https://google.com",
+    label: "JKM Business Card Black",
+    img: "/static/designs/business-card-front-manager-black.png",
+    link: "https://jiunkoomakeup.com/",
   },
   {
-    label: "Mobile Deal Page",
-    img: "/projects/skrizzle.png",
-    link: "https://google.com",
+    label: "JKM Business Card White",
+    img: "/static/designs/business-card-front-director-white.png",
+    link: "https://jiunkoomakeup.com/",
   },
   {
-    label: "Neon Signatures",
-    img: "/projects/skrizzle.png",
-    link: "https://google.com",
+    label: "JKM Business Card Black",
+    img: "/static/designs/business-card-front-director-black.png",
+    link: "https://jiunkoomakeup.com/",
   },
   {
-    label: "The Dentista - Logo Design",
-    img: "/projects/skrizzle.png",
-    link: "https://google.com",
+    label: "JKM Business Card White",
+    img: "/static/designs/business-card-back-white.png",
+    link: "https://jiunkoomakeup.com/",
   },
   {
-    label: "iPhone Wallpapers",
-    img: "/projects/skrizzle.png",
-    link: "https://google.com",
+    label: "JKM Business Card Black",
+    img: "/static/designs/business-card-back-black.png",
+    link: "https://jiunkoomakeup.com/",
   },
 ];

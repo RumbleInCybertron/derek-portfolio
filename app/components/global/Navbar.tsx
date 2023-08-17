@@ -5,8 +5,11 @@ import Image from "next/image";
 import { routes } from "@/app/data/global"
 import "@/app/styles/globals.css"
 
+interface AppbarProps {
+  currentPage: string;
+}
 
-function Appbar({ currentPage }) {
+function Appbar({ currentPage }: AppbarProps) {
   return (
     <nav className="max-w-screen-lg mx-auto flex items-center justify-between">
       <li className="list-none font-bold text-lg cursor-pointer">

@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className="flex flex-col text-left justify-between pt-8 relative">
       <div id="learnmore">
-        <SectionTitle title="Let{`'`}s see what I{`'`}ve been up to lately." />
+        <SectionTitle title="Let&apos;s see what I&apos;ve been up to lately." />
       </div>
       <div className="grid grid-cols-1 gap-12 md:gap-5 md:grid-cols-3 items-start">
         {projects.slice(0, 3).map((item) => {

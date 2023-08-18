@@ -1,8 +1,9 @@
 import { kebabCase } from "@/app/utils/utils";
 import Image from "next/image";
 import Link from "next/link";
+import  { Project }  from "@/app/components/projects/Project";
 
-function ProjectCard({ project }) {
+function ProjectCard( project: Project ) {
   return (
     <div
       className="flex flex-col mx-auto max-w-sm projects-center md:projects-start md:justify-center"

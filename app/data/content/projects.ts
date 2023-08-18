@@ -1,5 +1,5 @@
 import { kebabCase } from "@/app/utils/utils";
-import { Project } from "@/app/types/page";
+import { Project } from "@/app/components/projects/Project";
 
 const projects: Project[] = [
   {
@@ -85,7 +85,7 @@ const projects: Project[] = [
   },
 ];
 
-export const allTags = [];
+export const allTags: string[] = [];
 
 projects.forEach((project) => {
   project.tags.forEach((tag) => !allTags.includes(tag) && allTags.push(tag))

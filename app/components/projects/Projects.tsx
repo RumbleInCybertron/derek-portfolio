@@ -1,6 +1,15 @@
-import { Project } from '@/app/types/page';
 import projects from "@/app/data/content/projects";
 import ProjectCard from '@/app/components/projects/ProjectCard';
+
+type Project = {
+  id: number;
+  title: string;
+  desc: string;
+  img: string;
+  link?: string;
+  github?: string;
+  tags: string[];
+}
 
 type ProjectProps = {
   overwriteProjects?: Project[];

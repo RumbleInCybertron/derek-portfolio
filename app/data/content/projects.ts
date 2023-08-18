@@ -5,7 +5,7 @@ const projects: Project[] = [
   {
     id: 0,
     title: "KitsuneCom",
-    desc: "Web service company website",
+    desc: "Web service company's website",
     img: "/projects/kitsunecom.png",
     link: "https://google.com/",
     github: "https://github.com/KitsuneCom-LLC/kitsunecom",

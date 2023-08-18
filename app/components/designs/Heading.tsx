@@ -14,7 +14,7 @@ function Heading() {
         />
       </h1>
       <p className="text-fun-gray text-xl sm:text-2xl">
-        A picture is worth a thousand words. Let's see what these have to say.
+        A picture is worth a thousand words. Let{`'`}s see what these have to say.
       </p>
     </div>
   );

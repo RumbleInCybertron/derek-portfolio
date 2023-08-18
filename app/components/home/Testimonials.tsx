@@ -5,7 +5,7 @@ import Image from "next/image";
 function Testimonials() {
   return (
     <div className="flex flex-col text-left max-w-md md:max-w-full m-auto">
-      <SectionTitle title="What's the skuttlebutt?" />
+      <SectionTitle title="What{`'`}s the skuttlebutt?" />
       <div className="max-w-5xl m-auto md:max-h-[200] grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
         {testimonials.map((item, index) => {
           return (

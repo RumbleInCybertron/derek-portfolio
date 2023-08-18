@@ -75,6 +75,12 @@ export const footer: Footer = {
           leavesWebsite: true,
         },
         {
+          name: "Dribbble",
+          link: "https://dribbble.com/D-Roc",
+          icon: "/static/icons/dribbble-f.svg",
+          leavesWebsite: true,
+        },
+        {
           name: "Email",
           link: "mailto:kitsunecom@protonmail.com",
           icon: "/static/icons/mail-f.svg",

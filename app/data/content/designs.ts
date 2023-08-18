@@ -48,6 +48,16 @@ export const designs: Design[] = [
   {
     label: "NKW Logo",
     img: "/static/designs/nkd-logo-pink-text.png",
-    link: "https://google.com/",
+    link: "https://dribbble.com/shots/22313660-NKW-Logo",
+  },
+  {
+    label: "NKW Logo",
+    img: "/static/designs/nkd-logo-purple.png",
+    link: "https://dribbble.com/shots/22313775-NKW-Logo-Purple",
+  },
+  {
+    label: "NKW Logo",
+    img: "/static/designs/nkd-logo-purple-grey.png",
+    link: "https://dribbble.com/shots/22313787-NKW-Logo-Purple-w-grey-lettering",
   },
 ];

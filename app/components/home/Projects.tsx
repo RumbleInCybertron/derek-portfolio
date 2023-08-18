@@ -12,7 +12,7 @@ function Projects() {
       <div className="grid grid-cols-1 gap-12 md:gap-5 md:grid-cols-3 items-start">
         {projects.slice(0, 3).map((item) => {
           return (
-            <ProjectCard key={item.id} project={item} />
+            <ProjectCard key={item.id} {...item} />
           )
         })}
       </div>

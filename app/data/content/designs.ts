@@ -45,4 +45,9 @@ export const designs: Design[] = [
     img: "/static/designs/business-card-back-black.png",
     link: "https://jiunkoomakeup.com/",
   },
+  {
+    label: "NKW Logo",
+    img: "/static/designs/nkd-logo-pink-text.png",
+    link: "https://google.com/",
+  },
 ];

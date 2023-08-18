@@ -14,7 +14,7 @@ function Testimonials() {
             className="flex flex-col justify-between relative bg-fun-pink-darker border border-fun-pink-light p-5 rounded-lg h-full"
             >
               <p className="text-base italic relative testimonialQuote">
-               "{item.quote}"
+              {`"`}{item.quote}{`"`}
               </p>
               <p className="mt-4 text-xs text-fun-gray">
                 <b className="text-fun-pink font-monospace">{item.name}</b> -{" "}

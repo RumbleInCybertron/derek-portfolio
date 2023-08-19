@@ -197,7 +197,7 @@ html {
     z-index: 100;
     opacity: 0;
     left: 0;
-    transition: opacity 300ms ease, transform 300ms ease;
+    /* transition: opacity 300ms ease, transform 300ms ease; */
   }
 
   .menu li {

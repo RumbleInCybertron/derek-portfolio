@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { routes } from "@/app/data/global";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 function MenuIcon(props: any) {
   return (
@@ -102,7 +103,24 @@ export default function MobileNavbar() {
         </button>
       </div>
       {isMenuOpen && (
-        <ul className="menu flex flex-col absolute bg-bg menuRendered">
+        <motion.ul 
+        className="menu flex flex-col absolute bg-bg menuRendered" 
+        initial="hidden" 
+        animate="visible"
+        variants={{
+          hidden: {
+            scale: 1,
+            opacity: 0,
+          }, 
+          visible: {
+            scale: 1,
+            opacity: 1,
+            transition: {
+              delay: .3
+            }
+          },
+        }}
+        >
           {routes.map((item, index) => {
             return (
               <li
@@ -116,7 +134,7 @@ export default function MobileNavbar() {
               </li>
             );
           })}
-        </ul>
+        </motion.ul>
       )}
     </nav>
   );

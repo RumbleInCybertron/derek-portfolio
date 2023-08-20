@@ -81,9 +81,9 @@ export const skills: Skill[] = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "The communication throughout the project was excellent and the design was carried out well.",
-    name: "Mr. Softie",
-    job: "Co-Founder of Mobile Icecream",
+      "We were able to add functionality to our platform while overall cutting costs.",
+    name: "Yoo Minho",
+    job: "Owner of ProgX",
   },
   {
     quote:

@@ -83,7 +83,7 @@ export const testimonials: Testimonial[] = [
     quote:
       "We were able to add functionality to our platform while overall cutting costs.",
     name: "Yoo Minho",
-    job: "Owner of ProgX",
+    job: "Owner of Ingnya",
   },
   {
     quote:

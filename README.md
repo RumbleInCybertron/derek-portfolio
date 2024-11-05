@@ -1,4 +1,4 @@
-# **[droc.haus](https://droc.haus)**
+# **[derek.haus](https://derek.haus)**
 
 Hey there! I'm Derek and this is my portfolio built using **React, NextJS, and TailwindCSS**!
 

@@ -70,7 +70,7 @@ export const footer: Footer = {
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/derek-kitsunecom",
+          link: "https://www.linkedin.com/in/derek-haus",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
@@ -90,7 +90,7 @@ export const footer: Footer = {
     }
   ],
   support: {
-    buymeacoffee: "KitsuneCom",
+    buymeacoffee: "DerekHaus",
     paypal: "kitsunecom",
     message: "Your support is highly appreciated! 💙",
   },

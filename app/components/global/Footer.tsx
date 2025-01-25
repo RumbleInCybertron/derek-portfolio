@@ -111,7 +111,7 @@ function Footer() {
               <span>
                 <Image
                   title="TailwindCSS"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   alt=""
                   width="26"
                   height="26"

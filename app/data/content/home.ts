@@ -30,7 +30,7 @@ export const skills: Skill[] = [
   // },
   {
     title: "TailwindCSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
   },
   {
     title: "Dotnet",
@@ -62,11 +62,11 @@ export const skills: Skill[] = [
   },
   {
     title: "AWS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
   },
   {
     title: "Rust",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
   },
   // {
   //   title: "PostgreSQL",
